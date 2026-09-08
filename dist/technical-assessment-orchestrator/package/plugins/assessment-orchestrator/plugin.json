@@ -1,0 +1,5 @@
+{
+  "name": "technical-assessment-orchestrator",
+  "description": "Orchestrates technical assessments by coordinating repository analysis, task understanding, surgical planning, scope protection, validation, change review, and solution justification.",
+  "version": "1.0.0"
+}

@@ -1,0 +1,14 @@
+# Assessment local execution state
+.assessment/
+
+# Distribution archives
+dist/*.zip
+dist/*.tar.gz
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+
+# OS Files
+.DS_Store
+Thumbs.db
