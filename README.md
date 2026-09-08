@@ -35,7 +35,7 @@ It maximizes **correctness**, **passing tests**, **minimal code modifications (s
    * **macOS / Linux**: `./install.sh`
 
 **From Shared ZIP Archive:**
-1. Unzip `technical-assessment-orchestrator.zip` on your machine.
+1. Download or extract `technical-assessment-orchestrator.zip`.
 2. Open terminal in the unzipped directory and run:
    * **Windows**: `.\install.ps1`
    * **macOS / Linux**: `./install.sh`
@@ -45,7 +45,7 @@ It maximizes **correctness**, **passing tests**, **minimal code modifications (s
 ### Option 3: Shared Project Drop-In (VCS Version Controlled)
 
 To provide this skill set to anyone who clones your project repository without requiring global installation:
-1. Copy the `package/skills/` directory into your project's `.agents/skills/` folder:
+1. Copy the `dist/technical-assessment-orchestrator/package/skills/` directory into your project's `.agents/skills/` folder:
    ```text
    <your-project-root>/
    └── .agents/
@@ -96,30 +96,6 @@ During an assessment, all artifacts are organized cleanly under the `.assessment
         └── ...
 ```
 
-### Central Tasks Index (`.assessment/tasks.json`)
-```json
-{
-  "tasks": [
-    {
-      "id": "task-1",
-      "name": "Filter Fix",
-      "title": "selecting filters wont update the page",
-      "status": "Completed",
-      "created_at": "2026-08-26T16:00:00Z",
-      "updated_at": "2026-08-26T16:15:00Z"
-    },
-    {
-      "id": "task-2",
-      "name": "Datatable Pagination",
-      "title": "datatable is loading all data instead of paginated data",
-      "status": "In Progress",
-      "created_at": "2026-08-26T16:00:00Z",
-      "updated_at": "2026-08-26T16:00:00Z"
-    }
-  ]
-}
-```
-
 ---
 
 ## 🧠 Decision Framework
@@ -136,5 +112,5 @@ When evaluating multiple implementation strategies, the orchestrator enforces pr
 
 ## 🗑️ Uninstallation
 
-*   **Windows**: `.\uninstall.ps1`
-*   **macOS / Linux**: `./uninstall.sh`
+*   **Windows**: `.\dist\technical-assessment-orchestrator\uninstall.ps1`
+*   **macOS / Linux**: `./dist/technical-assessment-orchestrator/uninstall.sh`

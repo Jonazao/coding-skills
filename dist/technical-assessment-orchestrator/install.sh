@@ -4,7 +4,7 @@ set -e
 
 TARGET_DIR="${TARGET_DIR:-${HOME}/.gemini/config/skills}"
 PLUGINS_DIR="${PLUGINS_DIR:-${HOME}/.gemini/config/plugins}"
-REPO_URL="${REPO_URL:-https://github.com/alexcastromr/technical-assessment-orchestrator/archive/refs/heads/main.tar.gz}"
+REPO_URL="${REPO_URL:-https://github.com/Jonazao/coding-skills/archive/refs/heads/master.tar.gz}"
 
 echo -e "\033[36m==========================================================\033[0m"
 echo -e "\033[36m  Technical Assessment Orchestrator - Installer (macOS/Linux) \033[0m"

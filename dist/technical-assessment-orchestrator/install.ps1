@@ -2,7 +2,7 @@
 param(
     [string]$TargetDir = "$HOME/.gemini/config/skills",
     [string]$PluginsDir = "$HOME/.gemini/config/plugins",
-    [string]$RepoUrl = "https://github.com/alexcastromr/technical-assessment-orchestrator/archive/refs/heads/main.zip"
+    [string]$RepoUrl = "https://github.com/Jonazao/coding-skills/archive/refs/heads/master.zip"
 )
 
 $ErrorActionPreference = 'Stop'
